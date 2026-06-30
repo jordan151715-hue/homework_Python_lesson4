@@ -4,7 +4,7 @@ from string_utils import StringUtils
 string_utils = StringUtils()
 
 
-# capitalize()
+## capitalize()
 
 
 @pytest.mark.positive
@@ -27,7 +27,7 @@ def test_capitalize_negative(input_str, expected):
     assert string_utils.capitalize(input_str) == expected
 
 
-# trim()
+## trim()
 
 
 @pytest.mark.positive
@@ -50,7 +50,7 @@ def test_trim_negative(input_str, expected):
     assert string_utils.trim(input_str) == expected
 
 
-# contains()
+## contains()
 
 
 @pytest.mark.positive
@@ -73,7 +73,7 @@ def test_contains_negative(string, symbol, expected):
     assert string_utils.contains(string, symbol) == expected
 
 
-# delete_symbol()
+## delete_symbol()
 
 
 @pytest.mark.positive
